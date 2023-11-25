@@ -2,6 +2,8 @@ import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import doorlock from "../assets/door-lock-system-using-iot.png"
 import hotel from "../assets/hotel-management-system.png"
+import audiomailr from "../assets/audio-message.png"
+import furhat from "../assets/furhat.png"
 
 const container = {
   hidden: {},
@@ -26,7 +28,7 @@ const Project = ({ title,content,src,githublink }) => {
       <div className={overlayStyles}>
         <p className="text-2xl  py-1 font-poppins">{title}</p>
         <p className="mt-7 text-sm">
-         {content} <br/> <a className="animate-pulse text-light-cream text-lg text-bold" href={githublink}> Click Here</a>
+         {content} <br/> <a className="animate-pulse text-light-cream text-lg text-bold" href={githublink} target="_blank"> Click Here</a>
         </p>
       </div>
       <img src={src} alt={title} />
@@ -64,7 +66,7 @@ const Projects = () => {
       {/* PROJECTS */}
       <div className="flex justify-center my-20">
         <motion.div
-          className="sm:grid sm:grid-cols-2"
+          className="sm:grid sm:grid-cols-4"
           variants={container}
           initial="hidden"
           whileInView="visible"
@@ -83,6 +85,22 @@ const Projects = () => {
           guest details and many more ..."
           src={hotel}
           githublink="https://github.com/kiranbl/HotelManagementDatabaseSystem"
+          />
+
+        <Project title="AudioMailr" 
+          content="A team software project where I worked on design and development of back-end for this application
+          where the main purpose of the application was to send and receive emails and have the functionality of converting
+          the text-to-speech and read the email to the users"
+          src={audiomailr}
+          githublink="https://github.com/kiranbl/AudioMailr_Team_Software_Project"
+          />
+
+        <Project title="Receptionist Skill For Furhat Robot" 
+          content="This project was about building an Furhat
+          Skill using the robot and the skill or the application which I built was the Receptionist Skill which was able to
+          greet the user who arrives at the reception desk for information..."
+          src={furhat}
+          githublink="https://github.com/kiranbl/FurhatReceptionistRobot"
           />
 
         </motion.div>

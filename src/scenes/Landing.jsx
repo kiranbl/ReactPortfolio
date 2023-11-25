@@ -13,7 +13,7 @@ const Landing =({selectedPage,setSelectedPage})=>{
 
     <div className='md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32'>
     {isAboveMediumScreens ? (
-        <div className='relative z-0 ml-20 before:absolute before:-top-10 before:-left-20 
+        <div className='relative z-0 ml-20 before:absolute before:-top-5 before:-left-10 
         before:rounded-full before:w-full before:max-w-[600px] before:h-full
         before:border-2 before:border-dark  before:z-[-1]'>
             <img src={profileimg}
@@ -47,7 +47,7 @@ const Landing =({selectedPage,setSelectedPage})=>{
         <p className='mt-10 mb-7 text-dark-cream text-xl text-center font-semibold md:text-start'> ----------- Full Stack Developer</p>
 
         <p className='mt-5 mb-7 text-dark-cream text-sm text-center font-medium md:text-start'
-        >I'm a developer based in Sheffield, UK and I'm currently studying for Masters in The University of Sheffield </p>
+        >I'm a developer based in Sheffield, UK and I recently graduated with a Masters from The University of Sheffield </p>
     </motion.div>
 
     <motion.div
