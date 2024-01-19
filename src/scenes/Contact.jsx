@@ -2,7 +2,7 @@
 import SocialMediaIcons from '../components/SocialMediaIcons';
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
-import resume from "../assets/KiranResume2023.pdf";
+import resume from "../assets/KiranResume2024.pdf";
 
 const Contact = () => {
   const {

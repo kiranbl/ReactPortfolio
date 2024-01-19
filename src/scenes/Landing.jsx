@@ -2,7 +2,7 @@ import useMediaQuery from '../hooks/useMediaQuery';
 import {motion} from "framer-motion";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import profileimg from "../assets/profileimg.jpg";
-import resume from "../assets/KiranResume2023.pdf";
+import resume from "../assets/KiranResume2024.pdf";
 import SocialMediaIcons from '../components/SocialMediaIcons';
 
 const Landing =({selectedPage,setSelectedPage})=>{

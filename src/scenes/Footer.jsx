@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="text-center ">
           
           <p className="font-poppins font-semibold text-md text-light-cream">
-            ©2023 - Kiran B L
+            ©2024 - Kiran B L
           </p>
         </div>
     </footer>
